@@ -1,0 +1,106 @@
+@media only screen and (min-width: 1400px){
+    .container{
+        max-width: 1300px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+    .container{
+        max-width: 1180px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    header .navbar-expand-lg .navbar-nav .nav-item{padding: 0 27px;}
+}
+
+@media only screen and (max-width: 1399px){
+    .lbl-title {font-weight: 500;font-size: 20px; line-height: 30px;}
+    .blue-btn {font-size: 16px; line-height: 24px; min-width: 210px;padding: 10px 15px;}    
+    .white-btn{ font-size: 16px; line-height: 21px; padding: 10px 15px; width: 184px;}
+    .border-btn{width: 300px; font-size: 16px; line-height: 21px; padding: 10px 15px;}
+    .secondwhite-btn {font-size: 16px; line-height: 21px; padding: 11px 15px; width: 184px;}
+    header .navbar-expand-lg {padding: 25px 0;}
+    header .navbar-expand-lg .navbar-nav .nav-item {padding: 0 18px;}
+    header .navbar-expand-lg .navbar-nav .nav-item a {font-size: 18px; line-height: 26px;}
+    header .navbar-expand-lg.small {padding: 16px 0;}
+    .banner-sec h1{font-size: 36px; line-height: 62px; margin-bottom: 18px;}
+    .banner-sec .white-btn {margin-right: 20px;}
+    .banner-sec label {font-size: 20px; line-height: 28px;}
+    .about .btns .join-btn{width: 250px;}
+    .about h2{margin-bottom: 30px;}
+    .about .btns {padding-top: 15px;}
+    .about ul li {width: 125px; height: 125px; max-width: 125px;}
+    .specializing .border-box .icon {width: 100px; height: 100px;}
+    .specializing .border-box h3 {font-size: 22px; line-height: 30px; min-height: 60px;}
+    .earning-trick h2 {margin-bottom: 30px;}
+    .earning-trick .blue-btn {margin: 32px auto 0; padding-top: 9px; padding-bottom: 9px;}
+    .get-in-touch h2 {margin-bottom: 45px;}
+    .info-form .form-group {margin-bottom: 35px;}
+    .form-group label {font-size: 18px; line-height: 30px;}
+    .get-in-touch .inner-get-in-touch .contact-info .info-sec {margin: 58px 0 105px;}
+    .get-in-touch .inner-get-in-touch .contact-info .social li:not(:last-child) {margin-right: 45px;}
+    .get-in-touch .inner-get-in-touch .contact-info{padding-left: 50px; padding-right: 50px;}
+    .get-in-touch {padding-bottom: 100px;}  
+    footer.home{padding: 26px 0 25px;}
+    footer img{margin-bottom: 25px;}
+
+    /*=== SignUp Page CSS Start ===*/
+    .signup{padding: 154px 0 60px;}
+    .common-pg .inner-common .welcome-box{padding: 55px 60px 115px;}
+    .info-form {padding: 0 50px 0 35px;}
+    .common-pg .inner-common .welcome-box h3 { font-size: 30px; line-height: 45px;}
+    .common-pg .inner-common .welcome-box p {font-size: 18px; line-height: 28px; margin-bottom: 20px;}
+    .signup.common-pg .inner-common .info-form .form-group:last-child {margin-bottom: 45px;}
+    .common-pg .inner-common .welcome-box img{margin: 0 auto 60px; max-width: 225px;}
+    footer ul li:not(:last-child) {margin-right: 40px;}
+    footer ul li a {font-size: 18px; line-height: 26px;}
+    footer {padding: 25px 15px 25px;}
+    footer p {font-size: 14px;line-height: 20px;}
+    .signup.common-pg .inner-common .info-form .blue-btn {padding-left: 20px; padding-right: 20px;}
+    .basic-about.signup.common-pg .inner-common .blue-btn { margin-left: 25px; min-width: 285px;}
+    .acc-verification.signup.common-pg .inner-common .info-form .blue-btn {min-width: 285px;}
+    .acc-verification .form-control{font-size: 22px; line-height: 26px;}
+    .acc-verification .resend-code{margin-top: 35px;}
+    .acc-verification .resend-code p{font-size: 22px; line-height: 32px;}
+}
+
+@media only screen and (max-width: 1199px){
+    select.form-control{background-position: 97% 7px; background-size: 22px;}
+    .form-group label {font-size: 16px;line-height: 26px;}
+    .info-form, .acc-verification .info-form {padding: 0 30px 0 30px;}
+    .info-form .form-group {margin-bottom: 25px;}
+    .common-pg .inner-common .welcome-box:before {width: 450px; height: 450px; border: 45px solid var(--lightblue);}
+    .common-pg .inner-common .welcome-box:after{width: 100px; height: 100px; right: 190px; border: 18px solid var(--lightblue);}
+    .common-pg .inner-common .welcome-box {padding: 45px 40px 100px;}
+    .common-pg .inner-common .welcome-box img{max-width: 200px;}
+    .common-pg .inner-common .welcome-box h3 {font-size: 28px;line-height: 40px;}
+    .acc-verification.signup.common-pg .inner-common .info-form .secondwhite-btn{margin-left: 10px;}
+    .acc-verification .info-form .form-group {margin-bottom: 40px;}
+    .acc-verification .form-control{font-size: 20px; line-height: 24px;}
+    .acc-verification .resend-code{margin-top: 30px;}
+    .acc-verification .resend-code p{font-size: 20px; line-height: 30px;}
+}
+
+@media only screen and (max-width: 991px){
+    .common-pg .inner-common{-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;}
+    .common-pg .inner-common .welcome-box img { max-width: 170px;}
+    .common-pg .inner-common .welcome-box {padding: 45px 20px 70px; -webkit-box-flex: 0;-ms-flex: 0 0 100%;flex: 0 0 100%; max-width: 100%; width: 100%; text-align: center; border-radius: 0; margin-bottom: 40px;}
+    .common-pg .inner-common .welcome-box h3 {font-size: 26px;line-height: 38px;}
+    .common-pg .inner-common .welcome-box p {font-size: 16px; line-height: 26px; margin-bottom: 16px;}
+    .info-form{-webkit-box-flex: 0;-ms-flex: 0 0 70%;flex: 0 0 70%; max-width: 70%; width: 100%; padding: 0 20px 0 20px;}
+    .acc-verification .form-control{font-size: 18px; line-height: 22px;}
+    .acc-verification .resend-code{margin-top: 25px;}
+    .acc-verification .resend-code p{font-size: 18px; line-height: 26px;}
+}
+
+@media only screen and (max-width: 767px){
+    .info-form {-webkit-box-flex: 0; -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; width: 100%;}
+    footer ul li:not(:last-child) {margin-right: 20px;}
+    footer ul li a {font-size: 16px; line-height: 24px;}
+    
+}
+
+@media only screen and (max-width: 575px){
+    footer ul li:not(:last-child) {margin-right: 14px;}
+    footer ul li a {font-size: 14px; line-height: 22px;}
+}
